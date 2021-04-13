@@ -1,0 +1,112 @@
+/*Base Styles*/
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font: 1em/1.5 "Text Me One", Helvetica, Arial, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(38, 35, 39);
+	max-width: 100%
+	line-height: 1.5;
+	background: rgb(214, 46, 40);
+}
+
+h1 {
+	font: 1em/1.5 "Atomic Age", Helvetica, Arial, sans-serif;
+	font-size: 40px;
+	color: rgb(224, 218, 199);
+}
+
+button {
+	font: 1em/1.5 "Atomic Age", Helvetica, Arial, sans-serif;
+	font-size: 17px;
+	color: rgb(38, 35, 39);
+	margin-top: 15px;
+	margin-bottom: 25px;
+	width: 100px;
+}
+
+input {
+	width: 100%;
+	font: 1em/1.5 "Text Me One", Helvetica, Arial, sans-serif;
+	margin-bottom: 10px;
+}
+
+select {
+	-webkit-appearance: menulist-button;
+	-webkit-border-radius: 0px;
+	width: 100%;
+	font: 1em/1.5 "Text Me One", Helvetica, Arial, sans-serif;
+	margin-bottom: 10px;
+}
+
+th, td {
+	text-align: left;
+	padding: 5px;
+	border-bottom: 1px solid #76a0db;
+	color: rgb(38, 35, 39);
+}
+
+
+/*Main Styles*/
+table, th, td {
+
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th {
+	background-color: #76a0db;
+	color: rgb(38, 35, 39);
+}
+
+tr:nth-child(even) {
+	background-color: rgb(224, 218, 199);
+}
+
+tr:nth-child(odd) {
+	background-color: rgb(184, 212, 252);
+}
+
+
+
+/*Layout Styles*/
+#sizer {
+	max-width: 950px;
+	width: 100%;
+	margin: auto;
+}
+
+#rightSide {
+	width: 65%;
+	float: right;
+}
+
+#leftSide {
+	padding-left: 5px;
+	width: 27%;
+}
+
+.sideSplitter {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#formDeep {
+	
+}
+
+ins {
+	width: 100%;
+}
+
+
+
+/*Floated Columns*/
+
+
+/*Float Clearfix*/
